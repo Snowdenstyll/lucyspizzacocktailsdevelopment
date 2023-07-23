@@ -1,0 +1,16 @@
+{
+    "html.format.indentInnerHtml": true,
+    "html.format.templating": true,
+    "html.format.unformatted": "",
+    "prettier.tabWidth": 4,
+    "prettier.printWidth": 120,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "smarty.highlightColor": {
+        "dark": "#FFFFFF25",
+        "light": "#FFFA0040"
+    },
+    "smarty.highlight": false,
+    "html.format.enable": false,
+    "files.trimTrailingWhitespace": true,
+    "editor.formatOnSave": false
+}

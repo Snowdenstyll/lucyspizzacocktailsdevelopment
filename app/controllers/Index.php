@@ -16,11 +16,12 @@ class Index extends Controller
         $this->smarty->assign('css_dir', conf::get('css_dir'));
         $this->smarty->assign('assets_dir', conf::get('assets_dir'));
         $this->smarty->assign('js_dir', conf::get('js_dir'));
+        $this->smarty->assign('store_label', conf::get('store_label'));
     }
 
     public function index () {
         $this->smarty->assign('name', 'Ned');
         $this->smarty->display('index.tmpl');
     }
-    
+
 }

@@ -169,5 +169,7 @@ return [
 
     'js_dir' => '/app/views/js/',
 
+    'store_label' => "Lucy's Pizza & Cocktails",
+
 
 ];
