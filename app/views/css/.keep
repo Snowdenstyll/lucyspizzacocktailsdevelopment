@@ -1,0 +1,25 @@
+#f4f4eb
+
+#dbd9c5
+
+#a49f79
+
+#87b7de
+
+#22559f
+
+21395e
+
+
+$white: #dbd9c5;
+
+$theme-colors: (
+    "light":      #f4f4eb,
+    "dark":       #a49f79,
+    "primary":    #87b7de,
+    "secondary":  #22559f,
+    "info":       #21395e,
+    "success":    #1b9e58,
+    "warning":    #e3c81d,
+    "danger":     #f10d15,
+);

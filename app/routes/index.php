@@ -2,4 +2,4 @@
 
 app()->setNamespace('\App\Controllers');
 
-app()->get('/smarty', 'Controller@index');
+app()->get('/index', 'Index@index');

@@ -1,6 +1,9 @@
 <?php
-
 namespace App\Controllers;
+
+use Leaf\View;
+
+require_once('vendor/autoload.php');
 
 /**
  * This is the base controller for your Leaf MVC Project.
@@ -9,7 +12,6 @@ namespace App\Controllers;
  */
 class Controller extends \Leaf\Controller
 {
-    private $smarty = null;
 
     //static $smarty = null;
     public function __construct()
@@ -43,10 +45,5 @@ class Controller extends \Leaf\Controller
         $this->smarty->setConfigDir(StoragePath());
         $this->smarty->setCompileDir(StoragePath('framework/views'));
         $this->smarty->setCacheDir(StoragePath('framework/views'));
-    }
-
-    public function index () {
-        $this->smarty->assign('name', 'Ned');
-        $this->smarty->display('smarty.tmpl');
     }
 }

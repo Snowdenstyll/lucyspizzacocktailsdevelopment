@@ -3,6 +3,7 @@
 use Leaf\View;
 require 'vendor/autoload.php';
 
+$smarty = new \Smarty();
 return [
     /*
     |--------------------------------------------------------------------------
@@ -13,7 +14,7 @@ return [
     | you need. As such, you can decide which view engine to use.
     |
     */
-    'view_engine' => \Leaf\Blade::class,
+    'view_engine' => \Leaf\View::attach($smarty),
 
     /*
     |--------------------------------------------------------------------------
@@ -24,7 +25,10 @@ return [
     |
     */
     'config' => function ($config) {
-        View::blade()->config($config['views_path'], $config['cache_path']);
+        $smarty->setTemplateDir('app/views/templates/');
+        $smarty->setConfigDir(StoragePath());
+        $smarty->setCompileDir(StoragePath('framework/views'));
+        $smarty->setCacheDir(StoragePath('framework/views'));
     },
 
     /*

@@ -150,7 +150,7 @@ return [
     | contains your Leaf application’s view files.
     |
     */
-    'views.path' => ViewsPath(null, false),
+    'views.path' => 'app/views/templates/' /* ViewsPath(null, false) */,
 
     /*
     |--------------------------------------------------------------------------
@@ -160,5 +160,14 @@ return [
     | This config tells leaf where to save cached and compiled views.
     |
     */
-    'views.cachePath' => StoragePath('framework/views')
+    'views.cachePath' => StoragePath('framework/views'),
+
+
+    'css_dir' => '/app/views/css/',
+
+    'assets_dir' => '/app/views/assets/',
+
+    'js_dir' => '/app/views/js/',
+
+
 ];
