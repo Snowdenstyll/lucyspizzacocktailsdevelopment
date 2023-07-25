@@ -33,4 +33,9 @@
 | the controller namespace first.
 |
 */
+
+app()->config([
+    'mode' => 'production'
+]);
+
 app()->setNamespace('\App\Controllers');

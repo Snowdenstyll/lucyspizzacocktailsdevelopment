@@ -12,10 +12,9 @@ require_once('vendor/autoload.php');
  */
 class Controller extends \Leaf\Controller
 {
+    public $smarty = null;
 
-    static $smarty = null;
-    public function __construct()
-    {
+    public function __construct() {
         parent::__construct();
 
         // In this version, request isn't initialised for you. You can use
