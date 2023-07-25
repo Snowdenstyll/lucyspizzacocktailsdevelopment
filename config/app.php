@@ -169,7 +169,9 @@ return [
 
     'js_dir' => '/app/views/js/',
 
+    'img_dir' => '/app/views/img/',
+
     'store_label' => "Lucy's Pizza & Cocktails",
 
-
+    'theme_dir' => 'app/views/theme/Silicon/',
 ];
