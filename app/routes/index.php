@@ -1,5 +1,5 @@
-<?php 
+<?php
 
 app()->setNamespace('\App\Controllers');
 
-app()->get('/', 'Index@index');
+app()->get('', 'Index@index');

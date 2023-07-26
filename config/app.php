@@ -163,15 +163,15 @@ return [
     'views.cachePath' => StoragePath('framework/views'),
 
 
-    'css_dir' => '/app/views/css/',
+    'css_dir' => 'public/assets/css/',
 
-    'assets_dir' => '/app/views/assets/',
+    'assets_dir' => 'public/assets/assets/',
 
-    'js_dir' => '/app/views/js/',
+    'js_dir' => 'public/assets/js/',
 
-    'img_dir' => '/app/views/img/',
+    'img_dir' => 'public/assets/img/',
 
     'store_label' => "Lucy's Pizza & Cocktails",
 
-    'theme_dir' => 'app/views/theme/Silicon/',
+    'theme_dir' => 'public/theme/Silicon/',
 ];

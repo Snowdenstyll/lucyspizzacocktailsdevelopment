@@ -34,8 +34,4 @@
 |
 */
 
-app()->config([
-    'mode' => 'production'
-]);
-
 app()->setNamespace('\App\Controllers');

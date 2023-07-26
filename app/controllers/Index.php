@@ -23,7 +23,6 @@ class Index extends Controller
     }
 
     public function index () {
-        $this->smarty->assign('name', 'Ned');
         $this->smarty->display('index.tmpl');
     }
 
