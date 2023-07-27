@@ -3,7 +3,7 @@ namespace App\Controllers;
 
 use Leaf\View;
 
-require_once('vendor/autoload.php');
+require 'vendor/autoload.php';
 
 /**
  * This is the base controller for your Leaf MVC Project.
