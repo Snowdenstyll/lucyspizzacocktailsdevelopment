@@ -19,6 +19,7 @@ class Index extends Controller
         $this->smarty->assign('store_label', conf::get('store_label'));
         $this->smarty->assign('theme_dir', conf::get('theme_dir'));
         $this->smarty->assign('img_dir', conf::get('img_dir'));
+        $this->smarty->assign('vendor_dir', conf::get('vendor_dir'));
 
     }
 

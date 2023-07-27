@@ -174,4 +174,6 @@ return [
     'store_label' => "Lucy's Pizza & Cocktails",
 
     'theme_dir' => 'public/theme/Silicon/',
+
+    'vendor_dir' => 'vendor/',
 ];

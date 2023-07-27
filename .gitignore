@@ -1,4 +1,3 @@
-vendor
 .env
 node_modules
 build
@@ -8,3 +7,4 @@ compiled
 Auth2
 theme
 *.bak
+vendor
