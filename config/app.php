@@ -165,7 +165,7 @@ return [
 
     'css_dir' => 'public/assets/css/',
 
-    'assets_dir' => 'public/assets/assets/',
+    'assets_dir' => 'public/assets/',
 
     'js_dir' => 'public/assets/js/',
 
