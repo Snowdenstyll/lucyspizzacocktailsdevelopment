@@ -34,15 +34,19 @@ require dirname(__DIR__) . '/vendor/autoload.php';
 */
 
 try {
-    \Dotenv\Dotenv::createUnsafeImmutable(dirname(__DIR__))->load();
+   \Dotenv\Dotenv::createUnsafeImmutable(dirname(__DIR__))->load();
 } catch (\Throwable $th) {
     trigger_error($th);
 }
 
-app()->config([
-    'mode' => 'production'
-]);
+define('ENV', $_ENV['APP_ENV'] ?? 'local');
 
+if (ENV === 'production') {
+    app()->config([
+        'mode' => ENV,
+        'debug' => false,
+    ]);
+}
 
 /*
 |--------------------------------------------------------------------------
