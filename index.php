@@ -17,7 +17,7 @@ $uri = urldecode(
 
 // It also allows you to directly load up your application from
 // the root file for quickly hosting on shared hosting platforms.
-if ($uri !== '/' && file_exists(__DIR__ . '/public' . $uri)) {
+if ($uri !== '/' && file_exists(__DIR__ . '/' . $uri)) {
     return false;
 }
 

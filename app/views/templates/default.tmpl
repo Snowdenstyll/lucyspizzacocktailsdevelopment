@@ -3,7 +3,11 @@
 
   <head>
     <meta charset="utf-8">
+<<<<<<< HEAD
     <title>Lucy's Pizza & Cocktail's</title>
+=======
+    <title>Lucy's Pizza & Cocktails</title>
+>>>>>>> a8e5ba922854f67b3b0e32ed77aa4735c0e2705e
 
     <!-- SEO Meta Tags -->
     <meta name="description" content="Silicon - Multipurpose Technology Bootstrap Template">
@@ -27,7 +31,8 @@
 
     <!-- Vendor Styles including: Font Icons, Plugins, etc.-->
     {foreach item=$css from=$css_files}
-      <link rel="stylesheet" media="screen" href="{$css_dir}/libs/{$css}">
+      <link rel="stylesheet" media="screen" href="{$css_dir}libs/{$css}">
+      <link rel="stylesheet" media="screen" href="{$css_dir}libs/{$css}">
     {/foreach}
 
     <!-- Main Theme Styles + Bootstrap -->
@@ -171,8 +176,8 @@
 
             <div class="p-2 order-md-2">
               <a href="index.html" class="navbar-brand pe-3">
-                <img src="{$theme_dir}assets/img/logo.svg" width="47" alt="Silicon">
-                Silicon
+                <img src="{$theme_dir}assets/img/logo.svg" width="47" alt="Lucy's Pizza and Cocktails">
+                Lucy's Pizza and Cocktails
               </a>
             </div>
 
@@ -185,7 +190,7 @@
                 <div class="offcanvas-body">
                   <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                      <a href="components/typography.html" class="nav-link">About Us</a>
+                      <a href="/about-us/" class="nav-link">About Us</a>
                     </li>
                     <li class="nav-item">
                       <a href="docs/getting-started.html" class="nav-link">Docs</a>
@@ -230,7 +235,9 @@
               <img src="{$theme_dir}assets/img/logo.svg" width="47" alt="Silicon">
               Silicon
             </div>
-            <p class="fs-sm pb-lg-3 mb-4">Proin ipsum pharetra, senectus eget scelerisque varius pretium platea velit.
+            <p class="fs-sm pb-lg-3 mb-4">
+              {_env('APP_ENV')}
+              Proin ipsum pharetra, senectus eget scelerisque varius pretium platea velit.
               Lacus, eget eu vitae nullam proin turpis etiam mi sit. Non feugiat feugiat egestas nulla nec. Arcu tempus,
               eget elementum dolor ullamcorper sodales ultrices eros.</p>
           </div>
