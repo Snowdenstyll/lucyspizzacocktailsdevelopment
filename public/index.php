@@ -39,14 +39,14 @@ try {
     trigger_error($th);
 }
 
-define('ENV', $_ENV['APP_ENV'] ?? 'local');
+/* define('ENV', $_ENV['APP_ENV'] ?? 'local');
 
 if (ENV === 'production') {
     app()->config([
         'mode' => ENV,
         'debug' => false,
     ]);
-}
+} */
 
 /*
 |--------------------------------------------------------------------------
