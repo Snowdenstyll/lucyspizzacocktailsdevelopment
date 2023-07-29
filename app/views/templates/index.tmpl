@@ -6,79 +6,68 @@
     <div class="jarallax-img" style="background-image: url({$img_dir}lucys_hero_1.png);"></div>
     <div class="position-relative text-center zindex-5 overflow-hidden pt-4 py-md-5">
 
-    <!-- Slider controls (Prev / next) -->
-    <button type="button" id="hero-prev" class="btn btn-prev btn-icon btn-xl bg-transparent shadow-none position-absolute top-50 start-0 translate-middle-y d-none d-md-inline-flex ms-n3 ms-lg-2">
-        <i class="bx bx-chevron-left fs-1"></i>
-    </button>
-    <button type="button" id="hero-next" class="btn btn-next btn-icon btn-xl bg-transparent shadow-none position-absolute top-50 end-0 translate-middle-y d-none d-md-inline-flex me-n3 me-lg-2">
-        <i class="bx bx-chevron-right fs-1"></i>
-    </button>
+      <!-- Slider controls (Prev / next) -->
+      <button type="button" id="hero-prev" class="btn btn-prev btn-icon btn-xl bg-transparent shadow-none position-absolute top-50 start-0 translate-middle-y d-none d-md-inline-flex ms-n3 ms-lg-2">
+          <i class="bx bx-chevron-left fs-1"></i>
+      </button>
+      <button type="button" id="hero-next" class="btn btn-next btn-icon btn-xl bg-transparent shadow-none position-absolute top-50 end-0 translate-middle-y d-none d-md-inline-flex me-n3 me-lg-2">
+          <i class="bx bx-chevron-right fs-1"></i>
+      </button>
 
     <!-- Slider -->
-    <div class="container text-center py-xl-5">
-        <div class="row justify-content-center pt-lg-5">
-        <div class="col-xl-8 col-lg-9 col-md-10 col-11">
-            <div class="swiper pt-5 pb-4 py-md-5" data-swiper-options='{
-            "effect": "fade",
-            "speed": 500,
-            "autoplay": {
-                "delay": 5500,
-                "disableOnInteraction": false
-            },
-            "pagination": {
-                "el": ".swiper-pagination",
-                "clickable": true
-            },
-            "navigation": {
-                "prevEl": "#hero-prev",
-                "nextEl": "#hero-next"
-            }
-            }'>
-            <div class="swiper-wrapper">
+      <div class="container text-center py-xl-5">
+          <div class="row justify-content-center pt-lg-5">
+            <div class="col-xl-8 col-lg-9 col-md-10 col-11">
+                <div class="swiper pt-5 pb-4 py-md-5" data-swiper-options='{
+                "effect": "fade",
+                "speed": 500,
+                "autoplay": {
+                    "delay": 5500,
+                    "disableOnInteraction": false
+                },
+                "pagination": {
+                    "el": ".swiper-pagination",
+                    "clickable": true
+                },
+                "navigation": {
+                    "prevEl": "#hero-prev",
+                    "nextEl": "#hero-next"
+                }
+                }'>
+                <div class="swiper-wrapper">
 
-                <!-- Item -->
-                <div class="swiper-slide">
-                <h2 class="display-2 from-start mb-lg-4">The Best IT Solutions for Your Business</h2>
-                <div class="from-end">
-                    <p class="fs-xl text-light opacity-70 pb-2 mb-lg-5">We provide the wide range of high quality IT services and best practices solutions to our customers making their business better.</p>
-                </div>
-                <div class="scale-up delay-1">
-                    <a href="#" class="btn btn-primary shadow-primary btn-lg">Start your project</a>
+                    <!-- Item -->
+                    <div class="swiper-slide">
+                    <h2 class="display-2 from-start mb-lg-4">Great Food</h2>
+                    <div class="from-end">
+                        <p class="fs-xl text-light opacity-70 pb-2 mb-lg-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias veritatis nisi, consequatur, laborum libero a neque ducimus. Porro rem illum quo nostrum quisquam asperiores. Possimus facilis velit, voluptatibus!</p>
+                    </div>
+                    </div>
+
+                    <!-- Item -->
+                    <div class="swiper-slide">
+                    <h2 class="display-2 from-start mb-lg-4">Great Drinks</h2>
+                    <div class="from-end">
+                        <p class="fs-xl text-light opacity-70 pb-2 mb-lg-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias veritatis nisi, consequatur, laborum libero a neque ducimus. Porro rem illum quo nostrum quisquam asperiores. Possimus facilis velit, voluptatibus!</p>
+                    </div>
+                    </div>
+
+                    <!-- Item -->
+                    <div class="swiper-slide">
+                    <h2 class="display-2 from-start mb-lg-4">A Great Time</h2>
+                    <div class="from-end">
+                        <p class="fs-xl text-light opacity-70 pb-2 mb-lg-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias veritatis nisi, consequatur, laborum libero a neque ducimus. Porro rem illum quo nostrum quisquam asperiores. Possimus facilis velit, voluptatibus!</p>
+                    </div>
                 </div>
 
-                </div>
-
-                <!-- Item -->
-                <div class="swiper-slide">
-                <h2 class="display-2 from-start mb-lg-4">Award-Winning Software Development</h2>
-                <div class="from-end">
-                    <p class="fs-xl text-light opacity-70 pb-2 mb-lg-5">We build complex web, desktop and mobile applications. With us you get quality software and perfect service every time.</p>
-                </div>
-                <div class="scale-up delay-1">
-                    <a href="#" class="btn btn-primary shadow-primary btn-lg">View case studies</a>
-                </div>
-                </div>
-
-                <!-- Item -->
-                <div class="swiper-slide">
-                <h2 class="display-2 from-start mb-lg-4">24/7 Tech &amp; Business Support</h2>
-                <div class="from-end">
-                    <p class="fs-xl text-light opacity-70 pb-2 mb-lg-5">We ensure lifetime support of all applications we've built. Our support department is a team of professionals who will assist you 24/7.</p>
-                </div>
-                <div class="scale-up delay-1">
-                    <a href="#" class="btn btn-primary shadow-primary btn-lg">Work with us</a>
-                </div>
+                <!-- Pagination (bullets) -->
+                <div class="swiper-pagination position-relative d-md-none pt-2 mt-5"></div>
                 </div>
             </div>
-
-            <!-- Pagination (bullets) -->
-            <div class="swiper-pagination position-relative d-md-none pt-2 mt-5"></div>
-            </div>
-        </div>
-        </div>
+          </div>
+      </div>
     </div>
-    </div>
-    <div class="container d-flex flex-column flex-sm-row align-items-center justify-content-between position-relative zindex-5 pb-5">
+   {*  <div class="container d-flex flex-column flex-sm-row align-items-center justify-content-between position-relative zindex-5 pb-5">
     <div class="d-flex mb-4 mb-sm-0">
         <a href="#" class="btn btn-icon btn-secondary btn-linkedin rounded-circle me-2">
         <i class="bx bxl-linkedin"></i>
@@ -97,11 +86,11 @@
         Our case studies
         <i class="bx bx-right-arrow-circle fs-4 ms-2"></i>
     </a>
-    </div>
+    </div> *}
 </section>
 
 
-<section class="pt-7 pt-md-9">
+<section class="pt-7 pt-md-9 mb-5">
     <div class="container">
         <div class="row">
             <div class="col-md-4">
@@ -121,7 +110,7 @@
                     <img class="media-decoration-img img-fluid rounded" src="{$img_dir}cocktails.jpg" alt="...">
                 </div>
             </div>
-            <div class="col-md-5 align-self-center mx-auto">
+            <div class="col-md-5 align-self-center mx-auto py-2">
 
                 <!-- Heading -->
                 <h2 class="mb-2">
@@ -143,7 +132,7 @@
 <section class="pt-7 pt-md-9">
     <div class="container">
         <div class="row">
-            <div class="col-md-5 align-self-center mx-auto">
+            <div class="col-md-5 align-self-center mx-auto py-2">
                 <!-- Heading -->
                 <h2 class="mb-2">
                     <em>Always</em> amazing experience
@@ -176,7 +165,7 @@
     </div>
 </section>
 
-<!-- Dashboard -->
+{* <!-- Dashboard -->
 <section class="container pt-3 pt-md-4 pt-lg-5 pb-2 mt-lg-2 mt-xl-4">
  <div class="row align-items-center">
    <div class="rellax col-md-7" data-rellax-percentage="0.5" data-rellax-speed="-0.6" data-disable-parallax-down="lg">
@@ -703,7 +692,7 @@
      </div>
    </div>
  </div>
-</section>
+</section> *}
 
 
 {/block}
